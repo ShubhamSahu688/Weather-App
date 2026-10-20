@@ -1,0 +1,17 @@
+/* Main App Container */
+body, html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #87CEFA, #E0F7FA); /* Sky blue */
+  height: 100%;
+}
+
+.WeatherApp {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #87CEFA, #E0F7FA); /* Sky blue gradient */
+  min-height: 100vh;
+  padding: 30px;
+  color: #0D47A1; /* Navy text for contrast */
+}
+

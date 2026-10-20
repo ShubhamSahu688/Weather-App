@@ -1,0 +1,51 @@
+.InfoBox {
+    text-align:center;
+    
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width:100%;
+   gap:0px
+   
+}
+/* Card Styling */
+.InfoBox .card {
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  background: linear-gradient(135deg, #87CEFA, #E0F7FA); /* Sky blue gradient */
+  color: #0D47A1; /* Navy text */
+}
+
+/* Card Content */
+.InfoBox .cardinfo .MuiCardContent-root {
+  border: none;
+  background-color: #E1F5FE; /* Light sky blue inside */
+  border-radius: 0 0 0px 0px;
+  padding: 20px;
+}
+
+/* Text inside card */
+.InfoBox .cardinfo p {
+  font-size: 16px;
+  margin: 6px 0;
+  color: #0D47A1; /* Navy for readability */
+}
+
+/* Heading (City name + icon) */
+.InfoBox .cardinfo h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #01579B; /* Darker sky blue accent */
+}
+
+/* Hover effect */
+.InfoBox .card:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}

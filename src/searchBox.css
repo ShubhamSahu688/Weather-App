@@ -1,0 +1,50 @@
+.Search{
+    text-align: center;
+    margin-bottom:25px;
+}
+
+/* Search Section */
+.Search {
+  margin: 20px auto;
+  padding: 20px;
+  width: 420px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #B3E5FC, #81D4FA); /* Light sky blue gradient */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Input field */
+.Search #city {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+.Search button {
+  background-color: #0288D1 !important; /* Deep sky blue */
+  color: #fff !important;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.Search button:hover {
+  background-color: #03A9F4 !important; /* Lighter sky blue on hover */
+}
+
+/* Force TextField background to sky blue */
+.MuiOutlinedInput-root {
+  background-color: #E1F5FE !important; /* Light sky blue */
+  border-radius: 8px;
+}
+
+/* Change border color on hover */
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #0288D1; /* Deep sky blue */
+}
+
+/* Change border color when focused */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #0288D1;
+}
